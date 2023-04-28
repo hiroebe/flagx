@@ -28,7 +28,7 @@ var dateFlag = flagx.Config[Date]{
 }
 ```
 
-Now you can use `dateFlag.Value()` to create `flag.Value`, which can be used for `flag.Var()`.
+Now you can use `dateFlag.Value()` to create [`flag.Value`](https://pkg.go.dev/flag#Value), which can be used for [`flag.Var()`](https://pkg.go.dev/flag#Var).
 
 ```go
 var date Date
